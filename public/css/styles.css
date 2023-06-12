@@ -1,0 +1,49 @@
+
+body {
+  background-color: White;
+}
+
+.centered {
+    padding-top: 200px;
+    text-align: center;
+}
+
+.secret-text {
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  background-color: rgb(255, 61, 80);
+}
+.new-title{
+  transform: skew(14deg);
+  border-right:1px solid black
+}
+.button-social{
+  width: 250px;
+}
+.heading{
+  
+  text-align: center;
+}
+.heading-h1{
+  font-size: 100px !important;
+}
+.wrapper {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.or-separator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #d3d7da;
+}
+
+.vertical-line {
+  border-left: 1px solid #d3d7da;
+  flex-grow: 1;
+  width: 1px;
+}

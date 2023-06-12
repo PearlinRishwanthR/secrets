@@ -1,0 +1,58 @@
+<%- include('partials/header') %>
+<div class="heading">
+  <h1 class="heading-h1">Register</h1>
+</div>
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-sm-4 socialbox">
+      <div class=" social-block">
+        <div class="">
+          <a class="btn btn-block btn-social btn-google button-social" href="/auth/google" role="button">
+            <i class="fab fa-google"></i>
+            Sign Up with Google
+          </a>
+        </div><br>
+        <div class="">
+          <a class="btn btn-block btn-social btn-facebook button-social" href="/auth/facebook" role="button">
+            <i class="fab fa-facebook"></i>
+            Sign Up with Facebook
+          </a>
+        </div>
+    </div>
+  </div>
+  <div class="wrapper">
+    <div class="or-separator">
+      <div class="vertical-line"></div>
+      <div>Or</div>
+      <div class="vertical-line"></div>
+    </div>
+  </div>
+  
+    <div class="col-sm-6">
+      <div class="">
+        <div class="card-body">
+
+          <!-- Makes POST request to /register route -->
+          <form action="/register" method="POST">
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" name="username" required>
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input type="password" class="form-control" name="password" required>
+            </div><br>
+            <button type="submit" class="btn btn-dark">Register</button>
+          </form>
+
+        </div>
+      </div>
+    </div>
+
+    
+    </div>
+
+  </div>
+</div>
+
+<%- include('partials/header') %>
